@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		29E6E8AD1BAA8FC200CECB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6E8AC1BAA8FC200CECB54 /* AppDelegate.swift */; };
-		29E6E8AF1BAA8FC200CECB54 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 29E6E8AE1BAA8FC200CECB54 /* GameScene.sks */; };
 		29E6E8B11BAA8FC200CECB54 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6E8B01BAA8FC200CECB54 /* GameScene.swift */; };
 		29E6E8B31BAA8FC200CECB54 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6E8B21BAA8FC200CECB54 /* GameViewController.swift */; };
 		29E6E8B61BAA8FC200CECB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E6E8B41BAA8FC200CECB54 /* Main.storyboard */; };
 		29E6E8B81BAA8FC200CECB54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E6E8B71BAA8FC200CECB54 /* Images.xcassets */; };
 		29E6E8BB1BAA8FC200CECB54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E6E8B91BAA8FC200CECB54 /* LaunchScreen.xib */; };
 		29E6E8C71BAA8FC200CECB54 /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6E8C61BAA8FC200CECB54 /* SwiftrisTests.swift */; };
+		29E6E8D11BAA90C000CECB54 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 29E6E8D01BAA90C000CECB54 /* Sounds */; };
+		29E6E8D31BAA90E800CECB54 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 29E6E8D21BAA90E800CECB54 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,6 @@
 		29E6E8A71BAA8FC200CECB54 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E6E8AB1BAA8FC200CECB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E6E8AC1BAA8FC200CECB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29E6E8AE1BAA8FC200CECB54 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		29E6E8B01BAA8FC200CECB54 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		29E6E8B21BAA8FC200CECB54 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		29E6E8B51BAA8FC200CECB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +40,8 @@
 		29E6E8C01BAA8FC200CECB54 /* SwiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E6E8C51BAA8FC200CECB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E6E8C61BAA8FC200CECB54 /* SwiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisTests.swift; sourceTree = "<group>"; };
+		29E6E8D01BAA90C000CECB54 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		29E6E8D21BAA90E800CECB54 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				29E6E8AC1BAA8FC200CECB54 /* AppDelegate.swift */,
-				29E6E8AE1BAA8FC200CECB54 /* GameScene.sks */,
 				29E6E8B01BAA8FC200CECB54 /* GameScene.swift */,
 				29E6E8B21BAA8FC200CECB54 /* GameViewController.swift */,
 				29E6E8B41BAA8FC200CECB54 /* Main.storyboard */,
 				29E6E8B71BAA8FC200CECB54 /* Images.xcassets */,
 				29E6E8B91BAA8FC200CECB54 /* LaunchScreen.xib */,
+				29E6E8D01BAA90C000CECB54 /* Sounds */,
+				29E6E8D21BAA90E800CECB54 /* Sprites.atlas */,
 				29E6E8AA1BAA8FC200CECB54 /* Supporting Files */,
 			);
 			path = Swiftris;
@@ -200,8 +203,9 @@
 			files = (
 				29E6E8BB1BAA8FC200CECB54 /* LaunchScreen.xib in Resources */,
 				29E6E8B81BAA8FC200CECB54 /* Images.xcassets in Resources */,
-				29E6E8AF1BAA8FC200CECB54 /* GameScene.sks in Resources */,
+				29E6E8D11BAA90C000CECB54 /* Sounds in Resources */,
 				29E6E8B61BAA8FC200CECB54 /* Main.storyboard in Resources */,
+				29E6E8D31BAA90E800CECB54 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
